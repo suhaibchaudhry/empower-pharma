@@ -79,3 +79,13 @@ body {
   height: 93px; }
 #block-views-front-page-testimonials-block .node-teaser nav {
   text-align: center; }
+
+.node-type-product-display #block-views-product-tabs-block #quicktabs-container-view__product_tabs__block {
+  background: #eaeaea;
+  padding: 10px;
+  border-radius: 3px; }
+.node-type-product-display #block-views-product-tabs-block .item-list ul {
+  margin: 0; }
+  .node-type-product-display #block-views-product-tabs-block .item-list ul li {
+    padding: 5px 22px;
+    background: #eaeaea; }
