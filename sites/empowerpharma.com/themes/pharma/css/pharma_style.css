@@ -80,6 +80,13 @@ body {
 #block-views-front-page-testimonials-block .node-teaser nav {
   text-align: center; }
 
+#block-views-blog-block-2 .views-row .links a {
+  color: #ff0000;
+  border: none;
+  background: transparent; }
+#block-views-blog-block-2 .views-row li.comment-comments {
+  display: none; }
+
 .node-type-product-display #block-views-product-tabs-block #quicktabs-container-view__product_tabs__block {
   background: #eaeaea;
   padding: 10px;

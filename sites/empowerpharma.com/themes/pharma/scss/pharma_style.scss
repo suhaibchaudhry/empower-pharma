@@ -138,6 +138,20 @@ body {
 
 //Products
 
+#block-views-blog-block-2 {
+	.views-row {
+		.links a {
+			color: #ff0000;
+			border: none;
+			background: transparent;
+		}
+		
+		li.comment-comments {
+			display: none;
+		}
+	}
+}
+
 .node-type-product-display {
 	
 	#block-views-product-tabs-block {
