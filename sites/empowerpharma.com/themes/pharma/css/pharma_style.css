@@ -15,6 +15,10 @@
 
 #zone-branding #region-menu {
   float: right; }
+  #zone-branding #region-menu .menu li a {
+    text-transform: lowercase;
+    color: #000;
+    font-size: 20px; }
 
 body {
   background: #eaeaea; }
