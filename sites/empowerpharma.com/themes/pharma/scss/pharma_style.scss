@@ -33,6 +33,10 @@
   			text-transform: lowercase;
   			color: #000;
   			font-size: 20px;
+
+  			&:hover {
+  				border-bottom: 2px solid #01a8e0;
+  			}
   		}
 	}
 }
@@ -52,7 +56,15 @@ body {
   		border: none;
 	}
 
+	h2.field-name-title-field {
+		font-size: 18px;
+	}
+
 	.views-row {
+		nav, a {
+			padding-left: 0;
+		}
+
 		float: left;
 		width: 295px;
 	}
@@ -98,6 +110,27 @@ body {
   		width: 32%;
  		margin: 0 10px 0 0;
   		height: 350px;
+
+  		li.node-readmore {
+  			a {
+  				border: none;
+  				background: none;
+  				padding-right: 0;
+  			}
+  		}
+
+  		nav.links {
+  			margin-right: 0;
+  		}
+
+  		.field-name-field-name {
+  			color: #4386be;
+  			border-bottom: 1px solid #c7c7c7;
+  		}
+
+  		li.comment-comments {
+  			display: none;
+  		}
 
   		.node-testimonials {
   			border: none;
@@ -245,20 +278,47 @@ body {
 	}
 }
 
-.view-id-display_products .all-products {
-	li.views-row {
-		padding: 25px 0 0 0;
-		margin: 5px;
-		border: solid 1px #C4C4C4;
-		padding-right: 0;
-		padding-bottom: 0;
-		text-align: center;
+.view-id-display_products {
+	.views-row {
+		float: left;
+		background: #fff;
+		margin: 0 10px 10px 0;
+		padding: 10px;
+		width: 152px;
+		height: 360px;
+		border: 1px solid #c4c4c4;
 
-		h2 a {
-			color: #2698f2;
+		h2.field-name-title-field {
+			font-size: 11px;
+			text-align: center;
+			font-weight: bold;
+			text-shadow: 0 0 5px #DBDBDB;
+		}
 
-			&:hover {
-				color: #000;
+		h3.field-label {
+			display: none;
+		}
+
+		span.price_prefix {
+			display: none;
+		}
+
+		.field-name-commerce-price {
+			font-size: 13px;
+			text-align: center;
+		}
+
+		.field-name-field-product {
+			margin-bottom: 0;
+			padding-bottom: 0;
+
+			.commerce-add-to-cart {
+				padding-top: 0;
+
+				.form-submit {
+					margin-top: 0;
+					margin-left: 0;
+				}
 			}
 		}
 	}
@@ -286,5 +346,21 @@ body {
 		color: #389BF3;
 		font-family: 'Muli', sans-serif;
     	font-size: 16px;
+	}
+}
+
+#zone-footer-wrapper {
+	background: #35C1F2;
+
+	#block-menu-menu-footer-navigation {
+		span.nolink {
+			color: #0470B8;
+			font-size: 20px;
+		}
+
+		li a {
+			color: #2C7F8D;
+			font-size: 16px;
+		}
 	}
 }

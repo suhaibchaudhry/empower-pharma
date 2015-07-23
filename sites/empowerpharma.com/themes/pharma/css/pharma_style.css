@@ -19,6 +19,8 @@
     text-transform: lowercase;
     color: #000;
     font-size: 20px; }
+    #zone-branding #region-menu .menu li a:hover {
+      border-bottom: 2px solid #01a8e0; }
 
 body {
   background: #eaeaea; }
@@ -28,9 +30,13 @@ body {
 
 #block-views-blog-block-2 .node-blog-post {
   border: none; }
+#block-views-blog-block-2 h2.field-name-title-field {
+  font-size: 18px; }
 #block-views-blog-block-2 .views-row {
   float: left;
   width: 295px; }
+  #block-views-blog-block-2 .views-row nav, #block-views-blog-block-2 .views-row a {
+    padding-left: 0; }
 #block-views-blog-block-2 h2 {
   font-size: 13px;
   font-weight: bold;
@@ -60,6 +66,17 @@ body {
   width: 32%;
   margin: 0 10px 0 0;
   height: 350px; }
+  #block-views-front-page-testimonials-block .views-row li.node-readmore a {
+    border: none;
+    background: none;
+    padding-right: 0; }
+  #block-views-front-page-testimonials-block .views-row nav.links {
+    margin-right: 0; }
+  #block-views-front-page-testimonials-block .views-row .field-name-field-name {
+    color: #4386be;
+    border-bottom: 1px solid #c7c7c7; }
+  #block-views-front-page-testimonials-block .views-row li.comment-comments {
+    display: none; }
   #block-views-front-page-testimonials-block .views-row .node-testimonials {
     border: none; }
   #block-views-front-page-testimonials-block .views-row hr {
@@ -130,17 +147,34 @@ body {
   color: #fff;
   border-radius: 3px; }
 
-.view-id-display_products .all-products li.views-row {
-  padding: 25px 0 0 0;
-  margin: 5px;
-  border: solid 1px #C4C4C4;
-  padding-right: 0;
-  padding-bottom: 0;
-  text-align: center; }
-  .view-id-display_products .all-products li.views-row h2 a {
-    color: #2698f2; }
-    .view-id-display_products .all-products li.views-row h2 a:hover {
-      color: #000; }
+.view-id-display_products .views-row {
+  float: left;
+  background: #fff;
+  margin: 0 10px 10px 0;
+  padding: 10px;
+  width: 152px;
+  height: 360px;
+  border: 1px solid #c4c4c4; }
+  .view-id-display_products .views-row h2.field-name-title-field {
+    font-size: 11px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0 0 5px #DBDBDB; }
+  .view-id-display_products .views-row h3.field-label {
+    display: none; }
+  .view-id-display_products .views-row span.price_prefix {
+    display: none; }
+  .view-id-display_products .views-row .field-name-commerce-price {
+    font-size: 13px;
+    text-align: center; }
+  .view-id-display_products .views-row .field-name-field-product {
+    margin-bottom: 0;
+    padding-bottom: 0; }
+    .view-id-display_products .views-row .field-name-field-product .commerce-add-to-cart {
+      padding-top: 0; }
+      .view-id-display_products .views-row .field-name-field-product .commerce-add-to-cart .form-submit {
+        margin-top: 0;
+        margin-left: 0; }
 
 #region-sidebar-first section {
   border-top: 1px dashed #B3A17B;
@@ -159,3 +193,12 @@ body {
   color: #389BF3;
   font-family: 'Muli', sans-serif;
   font-size: 16px; }
+
+#zone-footer-wrapper {
+  background: #35C1F2; }
+  #zone-footer-wrapper #block-menu-menu-footer-navigation span.nolink {
+    color: #0470B8;
+    font-size: 20px; }
+  #zone-footer-wrapper #block-menu-menu-footer-navigation li a {
+    color: #2C7F8D;
+    font-size: 16px; }
