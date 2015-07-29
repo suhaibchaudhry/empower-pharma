@@ -155,7 +155,7 @@ body {
   color: #fff;
   border-radius: 3px; }
 
-.page-products .view-id-display_products li.pager-current, .page-products .view-id-display_products li.pager-next {
+.page-products .view-id-display_products ul.pager li {
   float: none; }
 
 .view-id-display_products {
@@ -219,3 +219,6 @@ body {
   #zone-footer-wrapper #block-menu-menu-footer-navigation li a {
     color: #2C7F8D;
     font-size: 16px; }
+
+#node-page-1 .field-name-body iframe {
+  width: 100%; }

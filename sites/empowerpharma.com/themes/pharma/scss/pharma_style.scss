@@ -292,7 +292,7 @@ body {
 }
 .page-products {
 	.view-id-display_products {		
-		li.pager-current, li.pager-next {
+		ul.pager li {
 			float: none;
 		}
 	}
@@ -390,6 +390,16 @@ body {
 		li a {
 			color: #2C7F8D;
 			font-size: 16px;
+		}
+	}
+}
+
+
+// Contact Us
+#node-page-1 {
+	.field-name-body {
+		iframe {
+			width: 100%;
 		}
 	}
 }
