@@ -102,11 +102,13 @@ body {
 #block-views-front-page-testimonials-block .node-teaser nav {
   text-align: center; }
 
-#block-views-blog-block-2 .views-row .links a {
+#block-views-blog-block-2 .views-row .node-blog-post .content {
+  height: 300px; }
+#block-views-blog-block-2 .views-row .node-blog-post .links a {
   color: #ff0000;
   border: none;
   background: transparent; }
-#block-views-blog-block-2 .views-row li.comment-comments {
+#block-views-blog-block-2 .views-row .node-blog-post li.comment-comments {
   display: none; }
 
 .node-type-product-display .service-links {
@@ -222,3 +224,11 @@ body {
 
 #node-page-1 .field-name-body iframe {
   width: 100%; }
+
+.page-node-1 #block-webform-client-block-292 {
+  background: #898989;
+  padding: 10px 30px 10px 30px; }
+  .page-node-1 #block-webform-client-block-292 .webform-component--name {
+    width: 25%; }
+  .page-node-1 #block-webform-client-block-292 .webform-component--e-mail-address {
+    width: 30%; }

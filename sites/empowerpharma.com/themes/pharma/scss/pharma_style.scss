@@ -181,14 +181,20 @@ body {
 
 #block-views-blog-block-2 {
 	.views-row {
-		.links a {
-			color: #ff0000;
-			border: none;
-			background: transparent;
-		}
+		.node-blog-post {
+			.content {
+				height: 300px;
+			}
 
-		li.comment-comments {
-			display: none;
+			.links a {
+				color: #ff0000;
+				border: none;
+				background: transparent;
+			}
+
+			li.comment-comments {
+				display: none;
+			}
 		}
 	}
 }
@@ -400,6 +406,21 @@ body {
 	.field-name-body {
 		iframe {
 			width: 100%;
+		}
+	}
+}
+
+.page-node-1 {
+	#block-webform-client-block-292 {
+		background: #898989;
+		padding: 10px 30px 10px 30px;
+
+		.webform-component--name {
+			width: 25%;
+		}
+
+		.webform-component--e-mail-address {
+			width: 30%;
 		}
 	}
 }
