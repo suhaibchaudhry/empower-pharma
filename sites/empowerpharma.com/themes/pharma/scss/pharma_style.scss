@@ -179,6 +179,20 @@ body {
 
 //Products
 
+.node-product-type-full {
+	.commerce-product-field {
+		.field-name-body {
+			.summary {
+				span.read-more {
+					a.more-link {
+						float: left;
+					}
+				}
+			}
+		}
+	}
+}
+
 #block-views-blog-block-2 {
 	.views-row {
 		.node-blog-post {
@@ -312,8 +326,12 @@ body {
 		margin: 0 10px 10px 0;
 		padding: 10px;
 		width: 152px;
-		height: 430px;
+		height: 450px;
 		border: 1px solid #c4c4c4;
+
+		.commerce-product-field-field-images {
+			height: 245px;
+		}
 
 		h2.field-name-title-field {
 			height: 60px;

@@ -102,6 +102,9 @@ body {
 #block-views-front-page-testimonials-block .node-teaser nav {
   text-align: center; }
 
+.node-product-type-full .commerce-product-field .field-name-body .summary span.read-more a.more-link {
+  float: left; }
+
 #block-views-blog-block-2 .views-row .node-blog-post .content {
   height: 300px; }
 #block-views-blog-block-2 .views-row .node-blog-post .links a {
@@ -168,8 +171,10 @@ body {
     margin: 0 10px 10px 0;
     padding: 10px;
     width: 152px;
-    height: 430px;
+    height: 450px;
     border: 1px solid #c4c4c4; }
+    .view-id-display_products .views-row .commerce-product-field-field-images {
+      height: 245px; }
     .view-id-display_products .views-row h2.field-name-title-field {
       height: 60px;
       font-size: 11px;
