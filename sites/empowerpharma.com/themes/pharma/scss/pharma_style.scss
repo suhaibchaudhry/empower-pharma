@@ -29,6 +29,10 @@
 	#region-menu {
   		float: right;
 
+  		#block-menu-secondary-navigation {
+  			position: initial;
+  		}
+
   		.menu li a {
   			text-transform: lowercase;
   			color: #000;
