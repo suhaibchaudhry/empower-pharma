@@ -4,6 +4,14 @@
 
 .zone-user-wrapper {
   background: #000; }
+  .zone-user-wrapper #block-superfish-1 ul li {
+    line-height: 11px; }
+    .zone-user-wrapper #block-superfish-1 ul li.first {
+      margin-top: -1px; }
+    .zone-user-wrapper #block-superfish-1 ul li li.sf-depth-2 {
+      margin: 0 auto; }
+    .zone-user-wrapper #block-superfish-1 ul li li.first {
+      margin-top: -1px; }
 
 #block-menu-secondary-navigation ul li.leaf {
   list-style-image: none;

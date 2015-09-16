@@ -9,6 +9,26 @@
 
 .zone-user-wrapper {
   background: #000;
+
+	#block-superfish-1 {
+		ul li {
+			line-height: 11px;
+
+			&.first {
+				margin-top: -1px;
+			}
+
+			li {
+				&.sf-depth-2 {
+					margin: 0 auto;
+				}
+
+				&.first {
+					margin-top: -1px;
+				}
+			}
+		}
+	}
 }
 
 #block-menu-secondary-navigation {
@@ -317,7 +337,7 @@ body {
 	}
 }
 .page-products {
-	.view-id-display_products {		
+	.view-id-display_products {
 		ul.pager li {
 			float: none;
 		}
