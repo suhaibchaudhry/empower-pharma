@@ -18,13 +18,17 @@
 				margin-top: -1px;
 			}
 
-			li {
-				&.sf-depth-2 {
-					margin: 0 auto;
-				}
+			ul {
+				width: 100%;
 
-				&.first {
-					margin-top: -1px;
+				li {
+					&.sf-depth-2 {
+						margin: 0 auto;
+					}
+
+					&.first {
+						margin-top: -1px;
+					}
 				}
 			}
 		}
