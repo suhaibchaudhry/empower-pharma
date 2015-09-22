@@ -2,6 +2,9 @@
 .page-user-addressbook .view-commerce-addressbook td {
   display: table-cell; }
 
+.grippie {
+  display: none !important; }
+
 .zone-user-wrapper {
   background: #000; }
   .zone-user-wrapper #block-superfish-1 ul li {
