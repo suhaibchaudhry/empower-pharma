@@ -254,3 +254,16 @@ body {
     width: 25%; }
   .page-node-1 #block-webform-client-block-292 .webform-component--e-mail-address {
     width: 30%; }
+
+.not-logged-in .sf-menu-login-menu {
+  display: none !important; }
+
+.logged-in .sf-menu-not-logged-in-menu {
+  display: none !important; }
+
+#commerce-checkout-form-checkout #customer-profile-billing-ajax-wrapper {
+  float: left;
+  width: 50%; }
+#commerce-checkout-form-checkout #customer-profile-shipping-ajax-wrapper {
+  float: right;
+  width: 50%; }
