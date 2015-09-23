@@ -37,6 +37,8 @@ regions[postscript_third] = Postscript Third
 regions[footer_first] = Footer First
 regions[footer_second] = Footer Second
 regions[footer_third] = Footer Third
+regions[footer_fourth] = Footer Fourth
+regions[footer_fifth] = Footer Fifth
 
 regions[footer2_first] = Footer2 First
 regions[footer2_second] = Footer2 Second
@@ -450,4 +452,3 @@ version = "7.x-1.0"
 core = "7.x"
 project = "pharma"
 datestamp = "1426860543"
-
