@@ -187,7 +187,12 @@ body {
     padding: 10px;
     width: 152px;
     height: 450px;
-    border: 1px solid #c4c4c4; }
+    border: 1px solid #c4c4c4;
+    position: relative; }
+    .view-id-display_products .views-row .form-type-select select {
+      position: absolute;
+      top: 264px;
+      left: 7px; }
     .view-id-display_products .views-row .commerce-product-field-field-images {
       height: 245px; }
     .view-id-display_products .views-row h2.field-name-title-field {
@@ -237,12 +242,6 @@ body {
 
 #zone-footer-wrapper {
   background: #35C1F2; }
-  #zone-footer-wrapper #block-menu-menu-footer-navigation span.nolink {
-    color: #0470B8;
-    font-size: 20px; }
-  #zone-footer-wrapper #block-menu-menu-footer-navigation li a {
-    color: #2C7F8D;
-    font-size: 16px; }
 
 #node-page-1 .field-name-body iframe {
   width: 100%; }

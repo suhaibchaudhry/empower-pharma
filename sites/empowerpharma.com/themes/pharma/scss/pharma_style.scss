@@ -362,6 +362,13 @@ body {
 		width: 152px;
 		height: 450px;
 		border: 1px solid #c4c4c4;
+		position: relative;
+
+		.form-type-select select {
+			position: absolute;
+			top: 264px;
+			left: 7px;
+		}
 
 		.commerce-product-field-field-images {
 			height: 245px;
@@ -442,18 +449,6 @@ body {
 
 #zone-footer-wrapper {
 	background: #35C1F2;
-
-	#block-menu-menu-footer-navigation {
-		span.nolink {
-			color: #0470B8;
-			font-size: 20px;
-		}
-
-		li a {
-			color: #2C7F8D;
-			font-size: 16px;
-		}
-	}
 }
 
 
