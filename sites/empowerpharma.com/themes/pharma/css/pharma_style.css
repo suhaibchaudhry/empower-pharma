@@ -18,10 +18,16 @@
       .zone-user-wrapper #block-superfish-1 ul li ul li.first {
         margin-top: -1px; }
 
-#block-menu-secondary-navigation ul li.leaf {
+#block-menu-secondary-navigation ul li.leaf, #block-menu-menu-secondary-menu ul li.leaf {
   list-style-image: none;
   list-style-type: none;
   float: left; }
+
+#block-menu-menu-secondary-menu ul.menu {
+  float: left; }
+
+#block-menu-secondary-navigation ul.menu {
+  float: right; }
 
 #block-views-exp-display-products-page {
   margin-top: 60px; }
